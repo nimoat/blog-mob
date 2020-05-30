@@ -1,0 +1,12 @@
+{
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.autoSave": "onFocusChange",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // "eslint.autoFixOnSave": false,
+  "editor.codeActionsOnSaveTimeout": 5000,
+}
