@@ -32,7 +32,9 @@ class List extends PureComponent<Props, State>{
     const { size } = this.state;
     const { getlist } = this.props;
     const { page, count } = this.props.artical;
-    count == 0 ? await getlist({ page, size }) : null;
+    if (count === 0) {
+      await getlist({ page, size })
+    }
   }
   async getMore() {
     const { size } = this.state;
